@@ -1,0 +1,7 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Test Cases ***
+TestCal
+    Open Browser    http://localhost:8080/Testcal/    ff
+    Sleep    5
